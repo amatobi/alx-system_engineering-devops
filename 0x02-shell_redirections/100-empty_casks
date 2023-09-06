@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -exec sh -c 'for item; do basename "$item"; done' sh {} +
+find . -empty -printf "%P\n"
